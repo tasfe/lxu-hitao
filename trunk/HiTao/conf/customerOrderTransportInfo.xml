@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<transports>
+	<transport>
+		<orderId></orderId><!-- 去上家下单后产生的订单id 必填 -->
+		<subOrderId></subOrderId><!-- 下游客户的订单id -->
+		<transportCode></transportCode><!-- 物流单号 -->
+	</transport>
+</transports>

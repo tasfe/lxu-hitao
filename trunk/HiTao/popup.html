@@ -1,0 +1,61 @@
+<html>
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=gb2312"/>
+	<link rel="stylesheet" type="text/css" href="css/popup.css"></link>
+	<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="js/hitao.js"></script>
+	<script type="text/javascript" src="js/logger.js"></script>
+	<script type="text/javascript" src="js/storeUtils.js"></script>
+	<script type="text/javascript" src="js/readConfig.js"></script>
+	<script type="text/javascript" src="js/readOrder.js"></script>
+	<script type="text/javascript" src="popup.js"></script>
+	<script type="text/javascript" src="js/fillFormJS.js"></script>
+	<script type="text/javascript" src="js/fillAddressJS.js"></script>
+	<script type="text/javascript" src="js/login.js"></script>
+	<script type="text/javascript" src="js/submitOrder.js"></script>
+	</head>
+	<body id="hitao">
+		HiTao
+		<br/>
+		<div class="separator"></div>
+		<table><tr style="border:1px solid yellow;">
+		  <td style="vertical-align:top;">
+			<div>
+				<div>
+					<span class="ut">用户列表:</span>&nbsp;&nbsp;
+					<button class="uin" type="button" id="up_userinfo_btn">更新用户信息</button>
+				</div>
+				<div id="user_list" class="si" style="width:300px;min-height:80px;"></div>
+			</div>
+			<div class="cbtn">
+				<button id="hitao_login">登录</button>
+			</div>
+		 </td>
+		 <td>
+			<div>
+				<div>
+					<span class="ut">上家地址:</span>&nbsp;&nbsp;
+					<button class="uin" type="button" id="up_factoryinfo_btn">更新上家地址</button>
+				</div>
+				<div id="factory_list" class="si" style="width:300px;"></div>
+			</div>
+		 </td>
+		</tr>
+		<tr>
+		  <td style="border:1px solid yellow;vertical-align:top;" colspan="2">
+			<div>
+				<div>
+					<span class="ut">下游客户订单列表:</span>&nbsp;&nbsp;
+					<button class="uin" type="button" id="up_suborder_btn">更新订单信息</button>
+				</div>
+				<div id="suborder_list" class="si" style="width:720px;"></div>
+			</div>
+			<div class="cbtn">
+				<button id="hitao_execute">开始执行</button>
+			</div>
+		  </td>
+		</tr></table>
+		<button id="clear_log">清除日志</button>
+		<div id="hitao_loger" style="width:99%;height:120px;overflow:auto;border:1px solid #ddd;margin-bottom:3px;margin-right:5px;"></div>
+	</body>
+</html>

@@ -1,0 +1,28 @@
+#hitao .separator {
+    height: 0;
+    margin: 3px 2px;
+    border: 0;
+    border-top: 1px solid #ddd;
+}
+#hitao .si {
+	border:1px solid #ddd;
+	width:300px;
+	min-height:150px;
+	overflow:auto;
+}
+#hitao .uin {
+	margin-top:10px;
+}
+#hitao .ut {
+	font-size:14px;
+}
+#hitao .cbtn {
+	width: 100%;
+	text-align: right;
+	margin-right: 20px;
+}
+#hitao td,th {
+	border: 1px solid #AAD4E9;
+	padding: 4px;
+	word-break: break-all;
+}
