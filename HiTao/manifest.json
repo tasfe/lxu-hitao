@@ -1,0 +1,17 @@
+{
+"name": "HiTao",
+"manifest_version": 2,
+"version" : "1.0",
+"description": "The first extension that I made.",
+"browser_action": {
+	"default_icon": "app.png",
+	"default_popup" : "popup.html"
+},
+
+"permissions": ["activeTab", "storage", "tabs", "http://*/*", "https://*/*"],
+
+"background": {
+	"scripts" : [ "background.js" ],
+    "persistent": true
+  }
+}

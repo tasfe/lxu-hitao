@@ -1,0 +1,46 @@
+<!DOCTYPE button PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312"/>
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript">
+function al() {
+	alert('用户名 : '+$('#userName').val()+"\n"+"密　码 : "+$('#password').val());
+}
+function bindselected() {
+	$("#province").change(function(opt){
+		alert(opt);
+	});
+}
+</script>
+</head>
+	<form id="form" action="http://www.taobao.com">
+		<div style="width:100%;text-align:center;">
+			用户名:<input style="margin-top:20px;" name="userName" id="userName"/>
+			<br/>
+			密　码:<input style="margin-top:20px;" type="password" name="password" id="password"/>
+			<br/>
+			<button style="margin-top:20px;" type="button" id="J_SubmitStatic" onclick="al();">登　录</button>
+			<br/>
+			<select id="province">
+				<option value='a'>a</option>
+				<option value='b'>b</option>
+				<option value='c'>c</option>
+				<option value='d'>d</option>
+			</select>
+			<select id="city">
+				<option value='0'></option>
+				<option value='a'>a</option>
+				<option value='b'>b</option>
+				<option value='c'>c</option>
+				<option value='d'>d</option>
+			</select>
+			<script type="text/javascript">
+				bindselected();
+			</script>
+			<button type="submit" id="J_SubmitStatic_2">提交</button>
+			<br/>
+			<br/>
+		</div>
+	</form>
+</html>
