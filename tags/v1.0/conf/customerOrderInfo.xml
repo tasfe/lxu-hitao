@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<orders>
+	<order>
+		<product>0002</product><!-- 对应上家产品${factoryInfo.xml$item.index} -->
+		<orderId></orderId><!-- 去上家下单后产生的订单id 可以不填 -->
+		<subOrderId>sub_order_1001</subOrderId><!-- 下游客户的订单id -->
+		<subOrderBuyCount>1</subOrderBuyCount><!-- 购买数量 -->
+		<subOrderBuySize>L</subOrderBuySize><!-- 购买尺码 -->
+		<subOrderBuyColor>玫红</subOrderBuyColor><!-- 购买颜色 -->
+		<subOrderPayState>已付款未发货</subOrderPayState><!-- 下游客户的订单的付款状态 -->
+		<subOrderCustomer>测试收货人1</subOrderCustomer><!-- 下游客户的订单的收货人 -->
+		<subOrderAddrPhone>12345679876</subOrderAddrPhone><!-- 联系电话 -->
+		<subOrderWayType>EMS</subOrderWayType><!-- 运送方式 -->
+		<subOrderMsg>测试留言</subOrderMsg><!-- 下游客户留言 -->
+		<!-- 下游客户收货地址  -->
+		<subOrderAddrProv>辽宁省</subOrderAddrProv><!-- 省 -->
+		<subOrderAddrCity>阜新市</subOrderAddrCity><!-- 市 -->
+		<subOrderAddrCounty>阜新蒙古族自治县</subOrderAddrCounty><!-- 区/县 -->
+		<subOrderAddrStreet>计时开始级</subOrderAddrStreet><!-- 街道-->
+		<subOrderAddrPostCode>110031</subOrderAddrPostCode><!-- 邮编 -->
+	</order>
+    <order>
+        <product>0002</product><!-- 对应上家产品${factoryInfo.xml$item.index} -->
+        <orderId></orderId><!-- 去上家下单后产生的订单id 可以不填 -->
+        <subOrderId>sub_order_1001</subOrderId><!-- 下游客户的订单id -->
+        <subOrderBuyCount>1</subOrderBuyCount><!-- 购买数量 -->
+        <subOrderBuySize>L</subOrderBuySize><!-- 购买尺码 -->
+        <subOrderBuyColor>玫红</subOrderBuyColor><!-- 购买颜色 -->
+        <subOrderPayState>已付款未发货</subOrderPayState><!-- 下游客户的订单的付款状态 -->
+        <subOrderCustomer>测试收货人1</subOrderCustomer><!-- 下游客户的订单的收货人 -->
+        <subOrderAddrPhone>12345679876</subOrderAddrPhone><!-- 联系电话 -->
+        <subOrderWayType>EMS</subOrderWayType><!-- 运送方式 -->
+        <subOrderMsg>测试留言</subOrderMsg><!-- 下游客户留言 -->
+        <!-- 下游客户收货地址  -->
+        <subOrderAddrProv>辽宁省</subOrderAddrProv><!-- 省 -->
+        <subOrderAddrCity>阜新市</subOrderAddrCity><!-- 市 -->
+        <subOrderAddrCounty>阜新蒙古族自治县</subOrderAddrCounty><!-- 区/县 -->
+        <subOrderAddrStreet>计时开始级</subOrderAddrStreet><!-- 街道-->
+        <subOrderAddrPostCode>110031</subOrderAddrPostCode><!-- 邮编 -->
+    </order>
+	<order>
+		<product>0004</product><!-- 对应上家产品${factoryInfo.xml$item.index} -->
+		<orderId></orderId><!-- 去上家下单后产生的订单id 可以不填 -->
+		<subOrderId>sub_order_1002</subOrderId><!-- 下游客户的订单id -->
+		<subOrderBuyCount>3</subOrderBuyCount><!-- 购买数量 -->
+		<subOrderBuySize>XL</subOrderBuySize><!-- 购买尺码 -->
+		<subOrderBuyColor>米白色</subOrderBuyColor><!-- 购买颜色 -->
+		<subOrderPayState>已付款未发货</subOrderPayState><!-- 下游客户的订单的付款状态 -->
+		<subOrderCustomer>收货人2</subOrderCustomer><!-- 下游客户的订单的收货人 -->
+		<subOrderAddrPhone>12345678456</subOrderAddrPhone><!-- 联系电话 -->
+		<subOrderWayType>快递</subOrderWayType><!-- 运送方式 -->
+		<subOrderMsg></subOrderMsg><!-- 下游客户留言 -->
+		<!-- 下游客户收货地址  -->
+		<subOrderAddrProv>天津</subOrderAddrProv><!-- 省 -->
+		<subOrderAddrCity>天津市</subOrderAddrCity><!-- 市 -->
+		<subOrderAddrCounty>和平区</subOrderAddrCounty><!-- 区/县 -->
+		<subOrderAddrStreet>jdkjk科技局和</subOrderAddrStreet><!-- 街道-->
+		<subOrderAddrPostCode>300041</subOrderAddrPostCode><!-- 邮编 -->
+	</order>
+	<!-- 以下用来测试错误或直接忽略的数据,目前只处理"已付款未发货"的,还有许多情况需要验证,数据业务有效性,数据的逻辑有效性, -->
+	<order>
+		<!-- 已经发货 -->
+		<product>0004</product><!-- 对应上家产品${factoryInfo.xml$item.index} -->
+		<orderId></orderId><!-- 去上家下单后产生的订单id 可以不填 -->
+		<subOrderId>sub_order_1005</subOrderId><!-- 下游客户的订单id -->
+		<subOrderBuyCount>3</subOrderBuyCount><!-- 购买数量 -->
+		<subOrderBuySize>XL</subOrderBuySize><!-- 购买尺码 -->
+		<subOrderBuyColor>米白色</subOrderBuyColor><!-- 购买颜色 -->
+		<subOrderPayState>已付款已发货</subOrderPayState><!-- 下游客户的订单的付款状态 -->
+		<subOrderCustomer>测试收货人1</subOrderCustomer><!-- 下游客户的订单的收货人 -->
+		<subOrderAddrPhone></subOrderAddrPhone><!-- 联系电话 -->
+		<subOrderWayType>EMS</subOrderWayType><!-- 运送方式 -->
+		<subOrderMsg></subOrderMsg><!-- 下游客户留言 -->
+		<!-- 下游客户收货地址  -->
+		<subOrderAddrProv></subOrderAddrProv><!-- 省 -->
+		<subOrderAddrCity></subOrderAddrCity><!-- 市 -->
+		<subOrderAddrCounty></subOrderAddrCounty><!-- 区/县 -->
+		<subOrderAddrStreet></subOrderAddrStreet><!-- 街道-->
+		<subOrderAddrPostCode></subOrderAddrPostCode><!-- 邮编 -->
+	</order>
+</orders>
